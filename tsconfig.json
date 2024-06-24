@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2021",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "types": ["node", "express", "./environment.d.ts", "./custom.d.ts"],
+    "strict": true
+  },
+  "lib": ["es2021"]
+}
